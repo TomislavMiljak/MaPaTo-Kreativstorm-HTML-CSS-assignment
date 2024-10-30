@@ -25,6 +25,13 @@ header {
 
 }
 
+.cofee-cup-logo {
+    margin-top: 1rem;
+    border-radius: 20px;
+}
+
+
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -72,6 +79,10 @@ nav ul li a {
 
 .heading-img-container {
     background-color: gray;
+    background-image: url("./images/pexels-cottonbro-5529903.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,6 +91,13 @@ nav ul li a {
     width: 30rem;
 
 }
+
+.heading-img-container img {
+    width: 1168px;
+    height: 246px;
+}
+
+
 
 
 main {
