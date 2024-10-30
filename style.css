@@ -13,6 +13,13 @@ h1 {
 
 }
 
+.cofee-cup-logo {
+    margin-top: 1rem;
+    border-radius: 20px;
+}
+
+
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -51,11 +58,22 @@ nav ul a {
 
 }
 
+
 .about span p {
 
+.heading-img-container {
+    background-color: gray;
+    background-image: url("./images/pexels-cottonbro-5529903.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 
 }
+
 
 .about button {
     background-color: #4a90e2;
@@ -71,6 +89,17 @@ nav ul a {
 .info-section {
     text-align: center;
 
+
+.heading-img-container img {
+    width: 1168px;
+    height: 246px;
+}
+
+
+
+
+main {
+
     margin-top: 2em;
     margin-left: 3rem;
     margin-right: 0rem;
@@ -83,6 +112,7 @@ nav ul a {
 
 }
 
+
 .scroll-Container {
     display: flex;
     flex-direction: row;
@@ -92,6 +122,18 @@ nav ul a {
     overflow-x: auto;
     scroll-snap-type: x mandatory;
 
+.info-section{
+    text-align: center;
+
+    margin-top: 2em;
+    margin-left: 3rem;
+    margin-right: 0rem;
+    margin-bottom: 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
 }
 
 
@@ -100,7 +142,17 @@ nav ul a {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+
+.info-section h2{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin-bottom: 20px;
+    
+
 }
+}
+
 
 .info-section h2 {
     font-size: 36px;
@@ -113,6 +165,21 @@ nav ul a {
 
 figure {
 
+.scroll-Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:0.25em;
+    align-items: center;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    
+}
+
+
+.main-img-paragraph-container p {
+    font-size: 10px;
+    width: 90px;
     text-align: center;
     scroll-snap-align: start;
     flex: 0 0 auto;
@@ -121,14 +188,51 @@ figure {
 }
 
 
+figure {
+
+    text-align: center;
+    scroll-snap-align: start;
+    flex: 0 0 auto;
+    width: 120px;
+    margin: 2em;
+}
+
+
+.main-img-placeholder {
+    width: 90px;
+    height: 90px;
+    border: 3px solid rgb(0, 119, 255);
+    border-radius: 10px;
+    
+}
+
 img {
     width: 120px;
     height: 120px;
+
     object-fit: cover;
     /* Crop or fit image to the box */
     border: 2px solid #4a90e2;
     border-radius: 8px;
 }
+
+    object-fit: cover; /* Crop or fit image to the box */
+    border: 2px solid #4a90e2;
+    border-radius: 8px;
+}
+figcaption {
+    font-size: 0.9em;
+    color: black;
+    margin-top: 10px;
+    max-width: 120px;
+}
+  
+
+
+
+
+/* REVIEW SECTION and CONTACT SECTION */
+
 
 figcaption {
     font-size: 0.9em;
@@ -140,10 +244,20 @@ figcaption {
 
 
 .container {
+
     max-width: 1280px;
     /*Limite da largura em todos as telas*/
     width: 100%;
     margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 2em;
+    padding-right: 2em;
+    /* max-width: 50em; */
+    gap: 3rem;
+
 }
 
 /*REVIEW SECTION*/
