@@ -75,40 +75,63 @@ nav ul li a {
     width: 30rem;
     
 }
-main {
+
+.info-section{
+    text-align: center;
     margin-top: 2em;
-    margin-left: 5rem;
-    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-right: 0rem;
     margin-bottom: 4em;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 5em;
+    
 
 }
-.random-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+.info-section h2{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin-bottom: 20px;
+    
 }
 
-.main-container {
+
+.scroll-Container {
     display: flex;
     flex-direction: row;
-    gap: 3em;
+    justify-content: center;
+    gap:0.25em;
+    align-items: center;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    
 }
-.main-img-paragraph-container p {
-    font-size: 10px;
-    width: 90px;
+
+figure {
     text-align: center;
+    scroll-snap-align: start;
+    flex: 0 0 auto;
+    width: 120px;
+    margin: 2em;
 }
-.main-img-placeholder {
-    width: 90px;
-    height: 90px;
-    border: 3px solid rgb(0, 119, 255);
-    border-radius: 10px;;
+
+img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover; /* Crop or fit image to the box */
+    border: 2px solid #4a90e2;
+    border-radius: 8px;
 }
+figcaption {
+    font-size: 0.9em;
+    color: black;
+    margin-top: 10px;
+    max-width: 120px;
+}
+  
+
+
 
 .inspiring-quote-container {
     background-color: rgba(220, 219, 219, 0.975);
