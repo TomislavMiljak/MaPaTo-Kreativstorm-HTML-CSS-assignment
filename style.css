@@ -295,3 +295,18 @@ textarea {
 .social-media {
     padding-right: 24px;
 }
+
+
+/* FOOTER */
+
+footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 1560px;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;    
+}
