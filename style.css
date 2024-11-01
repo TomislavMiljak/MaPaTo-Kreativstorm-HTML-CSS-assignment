@@ -13,7 +13,7 @@ header {
     background-color: #1f2937;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 99%;
 }
 
 header div {
@@ -50,7 +50,6 @@ nav {
     align-items: center;
     list-style: none;
     position: relative;
-    /* background-color: var(--color2); */
     padding: 12px 20px;
     margin-top: 50px;
     font-style: italic;
@@ -455,7 +454,7 @@ footer {
     .open-menu, .close-menu {display: block;}
     
     
-    #check:checked ~ .menu {right: 0; margin-bottom: 20rem}
+    #check:checked ~ .menu {right: 0;}
     #check:checked ~ .fa-times {background-color: rgba(0, 0, 0, 0.1); opacity: 0; }
     
     .about span{
@@ -467,18 +466,18 @@ footer {
     section {
         padding-top: 50vh;
     }
-    .info-section {
+    /* .info-section {
         padding-top: 16rem;
-    }
+    } */
     .scroll-Container {
         flex-direction: row;
         flex-flow: row wrap;
     }
-    .reviews {
+   /*  .reviews {
         padding-top: 15rem;
-    }
+    } */
     .contacts {
-        padding-top: 16rem;
+        padding-top: 12rem;
     }
     .last-container{
         display: flex;
