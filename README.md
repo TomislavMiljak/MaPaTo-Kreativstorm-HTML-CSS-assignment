@@ -10,6 +10,6 @@ We did our best to make this responsive for multiple screens.
 
 Thanks and Regards, 
 
-Tomislav Miljak
-Paulo Lopes
+Tomislav Miljak<br>
+Paulo Lopes<br>
 Malavika Sajith
