@@ -121,8 +121,8 @@ nav ul a {
     justify-content: flex-start;
     gap: 1em;
     align-items: center;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
+    /* overflow-x: auto; */
+    /* scroll-snap-type: x mandatory; */
     padding:10px;
 
 }
