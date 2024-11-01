@@ -118,11 +118,12 @@ nav ul a {
 .scroll-Container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 0.25em;
+    justify-content: flex-start;
+    gap: 1em;
     align-items: center;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
+    /* overflow-x: auto; */
+    /* scroll-snap-type: x mandatory; */
+    padding:10px;
 
 }
 
